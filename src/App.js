@@ -1,7 +1,7 @@
-import UseStatePage from "./hooks/01-useState/01-name-input";
+import UseCallbackPage from "./hooks/03-useCallback/01-box-sizing";
 
-const ReactHooksPage = () => {
-  return <UseStatePage />;
+const App = () => {
+  return <UseCallbackPage />;
 };
 
-export default ReactHooksPage;
+export default App;
