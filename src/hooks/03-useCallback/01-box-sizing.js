@@ -9,15 +9,6 @@ const UseCallbackPage = () => {
   // 이때 useCallback Hook을 사용해서 createBoxStyle 함수를 감싸준다.
   // 그러면 size가 변경되지 않는 이상 memoize 된 createBoxStyle 함수를 재사용하기 때문에 useEffect가 다시 불리지 않는다.
 
-  const createBoxStyle = useCallback(() => {
-    return {
-      backgroundColor: "lightblue",
-      width: `${size}px`,
-      height: `${size}px`,
-      marginTop: "20px",
-    };
-  }, [size]);
-
   // const createBoxStyle = () => {
   //   return {
   //     backgroundColor: "lightblue",
@@ -26,6 +17,15 @@ const UseCallbackPage = () => {
   //     marginTop: "20px",
   //   };
   // };
+
+  const createBoxStyle = useCallback(() => {
+    return {
+      backgroundColor: "lightblue",
+      width: `${size}px`,
+      height: `${size}px`,
+      marginTop: "20px",
+    };
+  }, [size]);
 
   return (
     <div
