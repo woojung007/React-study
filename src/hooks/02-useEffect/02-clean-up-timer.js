@@ -6,7 +6,7 @@ const CleanUp = (props) => {
       console.log("타이머 돌아가는 중...");
     }, 1000);
 
-    // 타이머가 끝나도록 clean-up
+    // 타이머가 끝나도록 clean-up 해주기
     return () => {
       clearInterval(timer);
       console.log("타이머가 종료되었습니다");
