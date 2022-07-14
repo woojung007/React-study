@@ -27,9 +27,21 @@ const UseStatePage = () => {
     setInput("");
   };
 
+  const onKeyUpUpload = (e) => {
+    if (e.keyCode === 13) {
+      setNames([input, ...names]);
+      setInput("");
+    }
+  };
+
   return (
     <div>
-      <input type="text" onChange={onChangeInput} value={input} />
+      <input
+        type="text"
+        onChange={onChangeInput}
+        value={input}
+        onKeyUp={onKeyUpUpload}
+      />
       <button onClick={onClickUpload}>Upload</button>
       {names.map((el, idx) => (
         <p key={idx}>{el}</p>
