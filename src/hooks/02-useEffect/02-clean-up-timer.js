@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-const CleanUp = (props) => {
+const CleanUp = () => {
   useEffect(() => {
     const timer = setInterval(() => {
       console.log("타이머 돌아가는 중...");
