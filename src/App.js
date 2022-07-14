@@ -1,7 +1,13 @@
-import UseCallbackPage from "./Hooks/03-useCallback/01-box-sizing";
+import React from "react";
+import "./App.css";
+import UseStatePage from "./Hooks/01-useState/01-name-input";
 
-const App = () => {
-  return <UseCallbackPage />;
-};
+function App() {
+  return (
+    <div className="App">
+      <UseStatePage />
+    </div>
+  );
+}
 
 export default App;
