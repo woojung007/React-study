@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import UseStatePage from "./Hooks/01-useState/01-name-input";
+import Timer from "./Hooks/02-useEffect/02-Timer";
 
 function App() {
   return (
     <div className="App">
-      <UseStatePage />
+      <Timer />
     </div>
   );
 }
