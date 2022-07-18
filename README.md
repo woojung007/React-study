@@ -29,3 +29,8 @@
 
 - [[Blog] React-useContext + Context API](https://velog.io/@eeeve/React-Hooks-useContext-Context-API) <br/>
 - [[Ref.] React Hooks에 취한다 - useContext + Context API | 리액트 훅스 시리즈](https://www.youtube.com/watch?v=LwvXVEHS638) <br/>
+
+## [05] useMemo
+
+- [[Blog] React-useMemo](https://velog.io/@eeeve/React-Hooks-useMemo) <br/>
+- [[Ref.] React Hooks에 취한다 - useMemo 제대로 사용하기 | 리액트 훅스 시리즈](https://www.youtube.com/watch?v=e-CnI8Q5RY4&t=140s) <br/>
