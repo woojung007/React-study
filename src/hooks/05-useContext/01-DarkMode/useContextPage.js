@@ -1,6 +1,6 @@
-import { ThemeContext } from "./Context/themeContext";
 import { useState } from "react";
 import Page from "./page";
+import { ThemeContext } from "./Context/themeContext";
 import { UserContext } from "./Context/userContext";
 
 const UseContextPage = () => {
