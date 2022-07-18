@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import UseContextPage from "./Hooks/05-useContext/01-DarkMode/useContextPage";
+import UseMemoPage2 from "./Hooks/06-useMemo/02-useMemoPage";
 
 function App() {
   return (
     <div className="App">
-      <UseContextPage />
+      <UseMemoPage2 />
     </div>
   );
 }
