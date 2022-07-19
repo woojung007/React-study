@@ -34,3 +34,8 @@
 
 - [[Blog] React-useMemo](https://velog.io/@eeeve/React-Hooks-useMemo) <br/>
 - [[Ref.] React Hooks에 취한다 - useMemo 제대로 사용하기 | 리액트 훅스 시리즈](https://www.youtube.com/watch?v=e-CnI8Q5RY4&t=140s) <br/>
+
+## [05] useReducer
+
+- [[Blog] React-useReducer](https://velog.io/@eeeve/React-Hooks-useReducer) <br/>
+- [[Ref.] React Hooks에 취한다 - useReducer 확실히 정리해드려요 | 리액트 훅스 시리즈](https://www.youtube.com/watch?v=tdORpiegLg0) <br/>
