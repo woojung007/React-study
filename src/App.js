@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import UseMemoPage2 from "./Hooks/06-useMemo/02-useMemoPage";
+import AttendancePage from "./Hooks/07-useReducer/02-Attendance";
 
 function App() {
   return (
     <div className="App">
-      <UseMemoPage2 />
+      <AttendancePage />
     </div>
   );
 }
