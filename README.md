@@ -1,4 +1,4 @@
-# 📔 What I Learned About React
+# 📘 What I Learned About React
 
 <br/>
 
